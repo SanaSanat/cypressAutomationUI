@@ -9,9 +9,10 @@ export default defineConfig({
     env:{
       stage: 'https://stage.pasv.us/course',
       prod: 'https://coding.pasv.us/course',
-      info: 'Hello World!'
+      info: 'Hello World!',
+      demoQA: 'https://demoqa.com'
       
-    }
+    },
   },
   defaultCommandTimeout: 16_000,
 });
