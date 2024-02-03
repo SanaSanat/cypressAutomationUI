@@ -7,10 +7,12 @@ export default defineConfig({
       // implement node event listeners here
     },
     env:{
-      stage: 'https://stage.pasv.us/course',
+      stage: 'https://stage.pasv.us/user/login',
       prod: 'https://coding.pasv.us/course',
       info: 'Hello World!',
-      demoQA: 'https://demoqa.com'
+      demoQA: 'https://demoqa.com',
+      email: 'sst7212@gmail.com',
+      password: 'zhailayY2202',
       
     },
   },
