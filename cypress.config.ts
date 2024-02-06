@@ -13,6 +13,7 @@ export default defineConfig({
       demoQA: 'https://demoqa.com',
       email: 'sst7212@gmail.com',
       password: 'zhailayY2202',
+      herokuapp: 'https://the-internet.herokuapp.com'
       
     },
   },
