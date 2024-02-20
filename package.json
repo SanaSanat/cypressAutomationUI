@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "open": "cypress open --e2e --browser chrome",
-    "open2": "cypress open --e2e"
+    "open2": "cypress open --e2e",
+    "prettier": "npx prettier . --write",
+    "cypress-run": "cypress run --browser chrome --spec cypress/e2e/autoFill.cy.ts"
   },
   "keywords": [],
   "author": "Sana",
   "license": "ISC",
   "devDependencies": {
-    "cypress-iframe": "^1.0.1"
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.1"
   },
   "dependencies": {
     "typescript": "^5.3.3"
